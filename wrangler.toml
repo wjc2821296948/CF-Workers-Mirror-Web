@@ -1,0 +1,7 @@
+name = "mirror"
+main = "src/worker.js"
+compatibility_date = "2025-01-01"
+
+[[routes]]
+pattern = "mirror.lrate.top"
+custom_domain = true
