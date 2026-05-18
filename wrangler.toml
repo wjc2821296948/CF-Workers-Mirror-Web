@@ -1,6 +1,9 @@
 name = "mirror"
-main = "src/worker.js"
+main = "src/index.js"
 compatibility_date = "2025-01-01"
+
+[build]
+command = "npx wrangler build"
 
 [[routes]]
 pattern = "mirror.lrate.top"
