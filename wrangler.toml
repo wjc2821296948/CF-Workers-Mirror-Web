@@ -6,5 +6,5 @@ compatibility_date = "2025-01-01"
 # 否则部署时会递归触发构建命令导致构建阶段异常结束。
 
 [[routes]]
-pattern = "mirror.lrate.top/*"
+pattern = "mirror.lrate.top"
 custom_domain = true
