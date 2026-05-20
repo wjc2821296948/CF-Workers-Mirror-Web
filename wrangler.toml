@@ -2,8 +2,8 @@ name = "mirror"
 main = "src/index.js"
 compatibility_date = "2025-01-01"
 
-[build]
-command = "npx wrangler build"
+# 不要在这里配置 [build] 调用 wrangler build，
+# 否则部署时会递归触发构建命令导致构建阶段异常结束。
 
 [[routes]]
 pattern = "mirror.lrate.top"
