@@ -1,11 +1,11 @@
 // Website you intended to retrieve for users.
-const upstream = 'www.google.com'
+const upstream = 'lrate.top'
 
 // Custom pathname for the upstream website.
 const upstream_path = '/'
 
 // Website you intended to retrieve for users using mobile devices.
-const upstream_mobile = 'www.google.com'
+const upstream_mobile = 'lrate.top'
 
 // Countries and regions where you wish to suspend your service.
 const blocked_region = ['KP', 'SY', 'PK', 'CU']
