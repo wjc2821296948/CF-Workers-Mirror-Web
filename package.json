@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Siujoeng-Lau/Workers-Proxy/issues"
   },
-  "homepage": "https://github.com/Siujoeng-Lau/Workers-Proxy#readme"
+  "homepage": "https://github.com/Siujoeng-Lau/Workers-Proxy#readme",
+  "devDependencies": {
+    "wrangler": "^4.86.0"
+  }
 }
