@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/Siujoeng-Lau/Workers-Proxy#readme",
   "devDependencies": {
-    "wrangler": "^4.86.0"
+    "wrangler": "^4.151.3"
   }
 }
